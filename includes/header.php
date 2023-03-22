@@ -17,7 +17,7 @@
         <header>
             <h1>PHP Struktur</h1>
             <div class="header_block">
-                
+
             </div>
         </header>
 
@@ -25,10 +25,12 @@
              <div class="rightSidebar">
                 <h2>Sidebar</h2><nav>
                 <ul>
-                    <li><a href="index.php">Hem</a></li>
-                    <li><a href="about.php">Om Sidan</a></li>
-                    <li><a href="contact.php">Kontakt</a></li>
-                    <li><a href="arrays.php">Arrayer</a></li>
+                    <li><a href="index.php">Startsida</a></li>
+                    <li><a href="variabler.php">Variabler</a></li>
+                    <li><a href="contact.php">Vilkor</a></li>
+                    <li><a href="arrays.php">Upprepningar</a></li>
+                    <li><a href="arrays.php">Formulär</a></li>
+                    <li><a href="arrays.php">Läsa in fil</a></li>
                 </ul>
             </nav>
             </div> 
