@@ -16,7 +16,14 @@
     <div class="container">
         <header>
             <h1>PHP Struktur</h1>
-            <nav>
+            <div class="header_block">
+                
+            </div>
+        </header>
+
+        <div class="container_content">
+             <div class="rightSidebar">
+                <h2>Sidebar</h2><nav>
                 <ul>
                     <li><a href="index.php">Hem</a></li>
                     <li><a href="about.php">Om Sidan</a></li>
@@ -24,10 +31,5 @@
                     <li><a href="arrays.php">Arrayer</a></li>
                 </ul>
             </nav>
-        </header>
-
-        <div class="container_content">
-             <div class="rightSidebar">
-                <h2>Sidebar</h2>
             </div> 
             
