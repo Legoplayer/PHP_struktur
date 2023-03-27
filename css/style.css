@@ -37,6 +37,9 @@ h5,
 h6 {
     font-weight: 300;
 }
+form {
+    width: 100%;
+}
 
 body {
     font-family: 'Lato', sans-serif;
