@@ -6,13 +6,15 @@ include("includes/header.php"); ?>
     <?php
 
 
-$file = 'courses.txt';
+    $file = 'courses.txt';
 
-if (file_exists($file)) {
-    readfile($file);
-} else {
-    echo "Filen kunde inte hittas";
-}
-?>
+    if (file_exists($file)) {
+        readfile($file);
+    } else {
+        echo "Filen kunde inte hittas";
+    }
+    ?>
 
-
+</div>
+</div>
+</div>

@@ -17,17 +17,36 @@ include("includes/header.php"); ?>
         print "<p>Idag är inte Söndag</p>";
     }
 
-$hour = date('H');
- if ($hour >= 6 && $hour <= 9) {
-    echo '<p><br> Det är morgon</p>';
- } elseif ($hour >= 9 && $hour <= 12) {
-    echo '<p>Det är förmiddag</p>';
- } elseif ($hour >= 12 && $hour <= 18) {
-    echo '<p>Det är eftermiddag</p>';
- } else {
-    echo '<p><br> Det är kväll/natt</p>';
- }
+    // Skriver ut om det är morgon, kväll eller annat
+    $hour = date('H');
+    if ($hour >= 6 && $hour <= 9) {
+        echo '<p><br> Det är morgon</p>';
+    } elseif ($hour >= 9 && $hour <= 12) {
+        echo '<p>Det är förmiddag</p>';
+    } elseif ($hour >= 12 && $hour <= 18) {
+        echo '<p>Det är eftermiddag</p>';
+    } else {
+        echo '<p><br> Det är kväll/natt</p>';
+    }
 
+// Sätter locale till Svenska
+$locale = 'sv_SE';
+
+// Skapar date formatter objekt
+$dateFormatter = new IntlDateFormatter(
+    $locale,
+    IntlDateFormatter::NONE,
+    IntlDateFormatter::NONE
+);
+
+//Sätter date formatter till att visa veckodag
+$dateFormatter->setPattern('EEEE');
+
+// Skapar variabel med veckodag på Svenska
+$dayOfWeek = $dateFormatter->format(new DateTime());
+
+// Skriver ut dag till skärmen på svenska 
+echo "<br>Idag är det " . $dayOfWeek;
 
     ?>
 

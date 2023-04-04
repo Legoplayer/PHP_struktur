@@ -21,6 +21,7 @@ include("includes/header.php");
   foreach ($courses as $value) {
     echo "<li>" . $value;
   };
+  echo "</ul>";
 
   echo '<br><br><ul>';
 
@@ -31,6 +32,7 @@ include("includes/header.php");
     echo '<li>' . $courses[$x];
   }
 
+  echo '</ul>';
   ?>
 
 </div>

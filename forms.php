@@ -19,7 +19,7 @@ include("includes/header.php"); ?>
     }
 
     ?>
-    
+
 
     <form method="get" action="forms.php">
         <table>
@@ -35,29 +35,31 @@ include("includes/header.php"); ?>
                 <td></td>
                 <td><input type="submit" name="submit" value="Skicka"></td>
             </tr>
-        
+
 
 
     </form>
 
 
-    <td><h3>Skicka data med POST</h3></td>
+    <td>
+        <h3>Skicka data med POST</h3>
+    </td>
     <form action="calculate.php" method="POST">
 
-    <tr>
-      <td><label for="length">Längd:</label></td>
-      <td><input type="number" id="length" name="length"></td>
-    </tr>
-    <tr>
-      <td><label for="width">Bredd:</label></td>
-      <td><input type="number" id="width" name="width"></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td><button type="submit" name="submit2">Beräkna</button></td>
-    </tr>
-  </table>
-</form>
+        <tr>
+            <td><label for="length">Längd:</label></td>
+            <td><input type="number" id="length" name="length"></td>
+        </tr>
+        <tr>
+            <td><label for="width">Bredd:</label></td>
+            <td><input type="number" id="width" name="width"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit" name="submit2">Beräkna</button></td>
+        </tr>
+        </table>
+    </form>
 
 
 </div>

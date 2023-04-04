@@ -1,6 +1,6 @@
 <?php include("includes/config.php"); ?>
 <!DOCTYPE html>
-<html lang="se">
+<html lang="sv">
 
 <head>
 
