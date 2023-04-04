@@ -1,0 +1,17 @@
+<h2>RAMSCHEMA</h2>
+<ul>
+    <li>Webbutveckling I</li>
+    <li>Introduktion till programmering i JavaScript</li>
+    <li>Grafisk teknik för webb</li>
+    <li>Databaser</li>
+    <li>Frontend-baserad webbutveckling</li>
+    <li>Backend-baserad webbutveckling</li>
+    <li>Programmering i TypeScript</li>
+    <li>Projektledning</li>
+    <li>Programmering i C#.NET</li>
+    <li>Fullstack-utveckling med ramverk</li>
+    <li>Webbutveckling för WordPress</li>
+    <li>Webbutveckling med .NET</li>
+    <li>Fördjupad frontend-utveckling</li>
+    <li>Självständigt arbete</li>
+</ul>

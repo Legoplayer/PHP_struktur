@@ -1,4 +1,3 @@
-
 <?php include("includes/config.php"); ?>
 <!DOCTYPE html>
 <html lang="se">
@@ -22,16 +21,16 @@
         </header>
 
         <div class="container_content">
-             <div class="rightSidebar">
-                <h2>Sidebar</h2><nav>
-                <ul>
-                    <li><a href="index.php">Startsida</a></li>
-                    <li><a href="variabler.php">Variabler</a></li>
-                    <li><a href="date.php">Vilkor</a></li>
-                    <li><a href="loops.php">Upprepningar</a></li>
-                    <li><a href="forms.php">Formulär</a></li>
-                    <li><a href="arrays.php">Läsa in fil</a></li>
-                </ul>
-            </nav>
-            </div> 
-            
+            <div class="rightSidebar">
+                <h2>Sidebar</h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.php">Startsida</a></li>
+                        <li><a href="variabler.php">Variabler</a></li>
+                        <li><a href="date.php">Vilkor</a></li>
+                        <li><a href="loop.php">Upprepningar</a></li>
+                        <li><a href="forms.php">Formulär</a></li>
+                        <li><a href="file.php">Läsa in fil</a></li>
+                    </ul>
+                </nav>
+            </div>
